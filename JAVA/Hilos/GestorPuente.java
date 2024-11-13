@@ -54,6 +54,9 @@ public class GestorPuente {
         puenteOcupado=false;
         notifyAll();
         System.out.println("Vehículo sale del puente");
+
+
+
     }
 
 }

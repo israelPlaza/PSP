@@ -15,7 +15,7 @@ public class GestorSala {
         }
         conteoPersona++;
         System.out.println("Entra una persona " + conteoPersona);
-        Thread.sleep(2000);
+
     }
 
     public synchronized void entrarSalaJubilado() throws InterruptedException {
@@ -26,7 +26,7 @@ public class GestorSala {
         jubiladosEsperando--;
         conteoPersona++;
         System.out.println("Entra una persona jubilada " + conteoPersona);
-        Thread.sleep(2000);
+
     }
 
     public synchronized void salirSala() {

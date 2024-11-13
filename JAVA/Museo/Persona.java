@@ -11,25 +11,19 @@ public class Persona extends Thread{
         this.gs= gs;
 
     }
-
-    public void run(){
-        if (tipo == tipoPersona.Persona) {
-    try {
-        gs.entrarSala();
-    } catch (InterruptedException e) {
-        throw new RuntimeException(e);
+    public void run() {
+        try {
+            if (tipo == tipoPersona.Persona) {
+                gs.entrarSala();
+            } else {
+                gs.entrarSalaJubilado();
+            }
+            gs.salirSala();
+        } catch (InterruptedException e) {
+            Thread.currentThread().interrupt();
+        }
     }
-} else {
-    try {
-        gs.entrarSalaJubilado();
-    } catch (InterruptedException e) {
-        throw new RuntimeException(e);
-    }
-}
 
-        gs.salirSala();
-
-    }
 
 }
 
