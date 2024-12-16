@@ -1,4 +1,8 @@
 {
+  "java.project.sourcePaths": [
+    "REDES/RedesU1/src",
+    "REDES"
+  ],
   "C_Cpp_Runner.cCompilerPath": "gcc",
   "C_Cpp_Runner.cppCompilerPath": "g++",
   "C_Cpp_Runner.debuggerPath": "gdb",
@@ -55,13 +59,5 @@
   "C_Cpp_Runner.useLeakSanitizer": false,
   "C_Cpp_Runner.showCompilationTime": false,
   "C_Cpp_Runner.useLinkTimeOptimization": false,
-  "C_Cpp_Runner.msvcSecureNoWarnings": false,
-  "C_Cpp.errorSquiggles": "enabled",
-  "window.autoDetectColorScheme": true,
-  "debug.allowBreakpointsEverywhere": true,
-  "java.project.sourcePaths": [
-    "JAVA/Principal",
-    "JAVA"
-  ],
-  "java.jdt.ls.vmargs": "-XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx2G -Xms100m -Xlog:disable"
+  "C_Cpp_Runner.msvcSecureNoWarnings": false
 }
