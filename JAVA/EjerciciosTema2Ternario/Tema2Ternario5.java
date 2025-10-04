@@ -1,3 +1,4 @@
+package EjerciciosTema2Ternario;
 
 import java.util.Scanner;
 
