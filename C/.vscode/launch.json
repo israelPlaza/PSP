@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": false,
-      "cwd": "/home/isra/CLASE/PSP/C",
-      "program": "/home/isra/CLASE/PSP/C/build/Debug/outDebug",
+      "cwd": "/home/isra/CLASE/PSP/C/EntregaComputadora",
+      "program": "/home/isra/CLASE/PSP/C/EntregaComputadora/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
