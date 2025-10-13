@@ -30,10 +30,24 @@ public class Cliente {
     public void setSaldo(float saldo) {
         this.saldo = saldo;
     }
+    
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public void setApellidos(String apellidos) {
+        this.apellidos = apellidos;
+    }
+
+    public void setDni(String dni) {
+        this.dni = dni;
+    }
 
     @Override
     public String toString() {
-        return "Cliente [nombre=" + nombre + ", apellidos=" + apellidos + ", dni=" + dni + ", saldo=" + saldo + "]";
+        return "El cliente " + nombre + " " + apellidos + " " + dni + 
+        " tiene de saldo: " + saldo + "€";
+
     }
 
     
