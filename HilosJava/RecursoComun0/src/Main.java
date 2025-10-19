@@ -13,7 +13,11 @@ public static void main(String[] args) throws InterruptedException {
         } */
 
     }
-    hilos[2].join();
+    
+    for (int i = 0; i < hilos.length; i++) {
+        hilos[i].join();
+    }
+
     System.out.println("El contador es " +contador.getValor());
     System.out.println("Fin main");
 

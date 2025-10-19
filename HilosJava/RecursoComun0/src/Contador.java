@@ -5,7 +5,7 @@ public class Contador {
         this.valor =valor;
     }
 
-    public void contar(){
+    public synchronized  void contar(){
         valor++;
     }
 

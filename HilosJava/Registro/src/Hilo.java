@@ -3,9 +3,9 @@ public class Hilo extends Thread{
     private int nombre;
     private String frase;
 
-    public Hilo(int nombre, Registro registro){
+    public Hilo(int nombre, Contador contador){
         this.nombre = nombre;
-        this.registro = registro;
+        this.registro = contador;
     }
     @Override
     public void run(){
