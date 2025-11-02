@@ -1,7 +1,7 @@
 public class Puente {
     
     private  boolean ocupado;
-
+    
     public  Puente(){
         this.ocupado = false;
 
