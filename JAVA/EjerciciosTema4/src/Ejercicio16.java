@@ -4,9 +4,7 @@ import java.util.Scanner;
 public class Ejercicio16 {
 public static void main(String[] args) {
     int A;
-        Scanner scanner = new Scanner(System.in);
-
-        System.out.println("El bloque try-catch se encuentra en 'main'.");
+    Scanner scanner = new Scanner(System.in);
 
         try {
             
@@ -21,7 +19,7 @@ public static void main(String[] args) {
         scanner.close();
 }
     public static int leerEntero(Scanner scanner) {
-        System.out.print("Introduce un valor entero (en el método 'leerEntero'): ");
+        System.out.print("Introduce un valor entero: ");
         int valor = scanner.nextInt(); 
         return valor;
     }
